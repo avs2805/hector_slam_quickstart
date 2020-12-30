@@ -73,7 +73,7 @@ catkin_make
 source devel/setup.bash
 
 ## and launch 
-roslaunch sabertooth_ctrl sabertooth.launch
+roslaunch sabertooth_rospy sabertooth_joy_ctrl.launch.launch
 roslaunch rplidar_ros rplidar.launch
 roslaunch hector_slam hector_slam_quickstart.launch
 
